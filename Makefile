@@ -262,7 +262,6 @@ HOSTCXX      = $(CCACHE) g++
 else
 HOSTCC       = gcc
 HOSTCXX      = g++
-<<<<<<< HEAD
 endif
 ifdef CONFIG_WITH_GRAPHITE
 HOSTCFLAGS   = $(GRAPHITE) -Wall -Wmissing-prototypes -Wstrict-prototypes -Ofast -fomit-frame-pointer -std=gnu89 -floop-nest-optimize
